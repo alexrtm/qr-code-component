@@ -1,0 +1,73 @@
+:root {
+    --clr-neutral-100: hsl(0, 0%, 100%);
+
+    --clr-slate-900: hsl(218, 44%, 22%);
+    --clr-slate-500: hsl(216, 15%, 48%);
+    --clr-slate-300: hsl(212, 45%, 89%);
+
+    --ff-main: "Outfit", sans-serif;
+
+    --fw-regular: 400;
+    --fw-bold: 700;
+}
+
+
+/*General Styling*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: var(--ff-main);
+    font-weight: var(--fw-regular);
+    background-color: var(--clr-slate-300);
+
+    /*Only for this project. Vertically and horizontally center everything*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+/*QR card styling*/
+
+.qr-card {
+    background-color: var(--clr-neutral-100);
+    padding: 1rem;
+    border-radius: 0.75rem;
+    max-width: 320px;
+}
+
+.qr-image {
+    /*block display and 100% max width prob a good idea for any image*/    
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    border-radius: 0.75rem;
+}
+
+.qr-text {
+    text-align: center;
+    padding: 1rem
+}
+
+.improve {
+    color: var(--clr-slate-900);
+    margin-bottom: 1rem;
+}
+
+.scan {
+    color: var(--clr-slate-500);
+}
