@@ -17,3 +17,6 @@
 
 #Do not upload the figma directory
 qr-code-component-figma/
+
+#Do not upload screenshots
+screenshots/

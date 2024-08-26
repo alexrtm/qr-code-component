@@ -63,11 +63,11 @@ body {
     padding: 1rem
 }
 
-.improve {
+.qr-text > h3 {
     color: var(--clr-slate-900);
     margin-bottom: 1rem;
 }
 
-.scan {
+.qr-text > p {
     color: var(--clr-slate-500);
 }
